@@ -1,0 +1,44 @@
+	body{margin: 0;}
+
+	.banner {
+			background: url("../images/1.jpg") no-repeat 0px,0px;
+			background-size:cover;
+			position: fixed;
+			margin: 0;
+	}
+	.banner h1{
+			font-size: 1.5em;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			color: #ffffff;
+			letter-spacing: 1px;
+			margin-bottom: 0px;
+	}
+	.banner h2{
+			font-size: 1.4em;
+			font-family: 'Verdanda', sans-serif;
+			font-weight: 100;
+			color: #ffffff;
+			line-height: 1;
+			margin-top: 5px;
+			letter-spacing: 3px;
+	}
+	.banner p{
+			font-size: 0.8em;
+			font-family: 'Lucida Console', sans-serif;
+			font-weight: 100;
+			color: #ffffff;
+			line-height: 0;
+	}
+	.banner-logo{
+			margin-top: 125px;
+			margin-bottom: 123px;
+			text-align: center;
+	}
+	.banner-logo img{
+			height: 50%;
+			width: 50%;
+	}
+	.banner div{
+			
+	}
