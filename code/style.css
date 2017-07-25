@@ -7,7 +7,7 @@
 			height: 100%;
 	}
 	.banner h1{
-			font-size: 1.5em;
+			font-size: 1.6em;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 100;
 			color: #ffffff;
@@ -16,8 +16,7 @@
 	}
 	.banner h2{
 			font-size: 1.4em;
-			font-family: 'Verdanda', sans-serif;
-			font-weight: 100;
+			font-family: 'Roboto', sans-serif;
 			color: #ffffff;
 			line-height: 1;
 			margin-top: 5px;
@@ -25,12 +24,13 @@
 	}
 	.banner p{
 			font-size: 0.9em;
-			font-family: 'Lucida Console', sans-serif;
-			font-weight: 100;
+			font-family: 'Roboto', sans-serif;
 			color: #ffffff;
+			letter-spacing: 1px;
 	}
 	.banner-logo{
 			text-align: center;
+			padding: 8% 0 9% 0;
 	}
 	.banner-logo img{
 			height: 50%;
@@ -41,7 +41,34 @@
 	}
 	@media screen and (max-width: 767px)
 	{
+			.banner-logo{
+			text-align: left;
+			padding: 8% 5% 3% 5%;
+	}
 			.banner-logo img{
 			height: 70%;
 			width: 70%;
+	}
+			.banner h1{
+			font-size: 1.6em;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			color: #ffffff;
+			letter-spacing: 1px;
+			margin-bottom: 0px;
+	}
+	.banner h2{
+			font-size: 1.2em;
+			font-family: 'Roboto', sans-serif;
+			color: #ffffff;
+			line-height: 1;
+			margin-top: 5px;
+			letter-spacing: 0px;
+	}
+	.banner p{
+			font-size: 0.9em;
+			font-family: 'Roboto', sans-serif;
+			color: #ffffff;
+			letter-spacing: 1px;
+	
 	}
