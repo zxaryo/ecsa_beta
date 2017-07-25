@@ -36,13 +36,18 @@
 	.cusat-logo img{
 			width: 80px;
 	}
+	.fimg{
+			margin-top: 5%;
+			padding: 0 5% 5% 0;
+	}
 	@media screen and (max-width: 767px)
 	{
 			.banner{
 			text-align: left;
-			padding: 11% 5% 5% 5%;
+			padding: 12% 5% 6% 5%;
 	}
 			.ecsa-logo img{
+			padding: 10% 0 10% 0;
 			height: 80%;
 			width: 80%;
 	}
@@ -53,18 +58,24 @@
 			margin-bottom: 0px;
 	}
 			.banner h2{
+			padding: 2% 0 0 0;
 			font-size: 1.2em;
 			line-height: 1;
 			margin-top: 5px;
 			letter-spacing: 0px;
 	}
 			.banner p{
+			padding: 5% 0 0 0;
 			font-size: 0.9em;
 			letter-spacing: 1px;
 			width: 60%;
 	
 	}	
-	.cusat-logo img{
-			padding: 10px 0 10px 0;
+			.cusat-logo img{
+			padding: 5% 0 10% 0;
 			width: 60px;
+	}
+			.fimg{
+			margin-top: 5%;
+			padding: 0 5% 5% 5%;
 	}
