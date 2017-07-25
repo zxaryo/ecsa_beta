@@ -1,10 +1,11 @@
 	body{margin: 0;}
-
 	.banner {
 			background: url("../images/1.jpg") no-repeat 0px,0px;
 			background-size:cover;
 			background-attachment: fixed;
 			height: 100%;
+			text-align: center;
+			padding: 8% 0 9% 0;
 	}
 	.banner h1{
 			font-size: 1.6em;
@@ -28,47 +29,47 @@
 			color: #ffffff;
 			letter-spacing: 1px;
 	}
-	.banner-logo{
-			text-align: center;
-			padding: 8% 0 9% 0;
-	}
-	.banner-logo img{
-			height: 50%;
-			width: 50%;
-	}
-	.banner div{
-			
-	}
-	@media screen and (max-width: 767px)
-	{
-			.banner-logo{
-			text-align: left;
-			padding: 8% 5% 3% 5%;
-	}
-			.banner-logo img{
-			height: 70%;
-			width: 70%;
-	}
-			.banner h1{
-			font-size: 1.6em;
-			font-family: 'Roboto', sans-serif;
-			font-weight: 100;
-			color: #ffffff;
-			letter-spacing: 1px;
-			margin-bottom: 0px;
-	}
-	.banner h2{
-			font-size: 1.2em;
-			font-family: 'Roboto', sans-serif;
-			color: #ffffff;
-			line-height: 1;
-			margin-top: 5px;
-			letter-spacing: 0px;
-	}
-	.banner p{
+	.banner h4{
 			font-size: 0.9em;
 			font-family: 'Roboto', sans-serif;
 			color: #ffffff;
 			letter-spacing: 1px;
+	}
+	.ecsa-logo img{
+			width: 480px;
+	}
+	.cusat-logo img{
+			width: 80px;
+	}
+	@media screen and (max-width: 767px)
+	{
+			.banner{
+			text-align: left;
+			padding: 8% 5% 3% 5%;
+	}
+			.ecsa-logo img{
+			height: 75%;
+			width: 75%;
+	}
+			.banner h1{
+			font-size: 1.6em;
+			font-weight: 100;
+			letter-spacing: 1px;
+			margin-bottom: 0px;
+	}
+			.banner h2{
+			font-size: 1.2em;
+			line-height: 1;
+			margin-top: 5px;
+			letter-spacing: 0px;
+	}
+			.banner p{
+			font-size: 0.9em;
+			letter-spacing: 1px;
+			width: 60%;
 	
+	}	
+	.cusat-logo img{
+			padding: 10px 0 10px 0;
+			width: 60px;
 	}
