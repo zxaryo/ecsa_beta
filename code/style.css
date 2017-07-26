@@ -74,10 +74,12 @@
 			.cusat-logo img{
 			padding: 5% 0 10% 0;
 			width: 60px;
-	}
-			.fimg{
+	}		
+}
+	@media screen and (max-width: 991px)
+	{
+					.fimg{
 			margin-top: 5%;
 			padding: 0 5% 5% 5%;
 	}
-		
-}
+	}
