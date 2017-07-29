@@ -1,4 +1,7 @@
 	body{margin: 0;}
+	.event{
+			padding: 10% 5% 5% 5%;
+	}
 	.bannerbg{
 			background: url("../images/1.jpg") no-repeat 0px,0px;
 			background-size:cover;
@@ -44,6 +47,9 @@
 	}
 	@media screen and (max-width: 767px)
 {
+			.event{
+			padding: 10% 0 5% 0;
+	}
 			.banner{
 			text-align: left;
 			padding: 12% 5% 6% 5%;
