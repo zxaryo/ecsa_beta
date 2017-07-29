@@ -45,8 +45,17 @@
 			margin-top: 5%;
 			padding: 0 5% 5% 0;
 	}
+	.quote{
+		padding: 20% 5% 20% 5%;
+	}
+	@media screen and (max-width: 991px){
+		.quote{
+		padding: 10% 0;
+	}
+	}
 	@media screen and (max-width: 767px)
 {
+	
 			.event{
 			padding: 10% 0 5% 0;
 	}
